@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+          <h1>Peter De Rijck</h1>
+          <nav>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    
+  <main>
+    <section id="about">
+        <h2>About me</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>My name is Peter De Rijck and I am currently looking for a new direction in my career. Experienced IT professional with two years of experience as a developer and a degree in IT. Looking to return to a role as developer, after a non linear career of several years on other interesting fields. Stays passionately up-to-date with the latest technologies and trends.</p>
+                <p>I currently live in Torhout, Belgium with my wife where I fill my days with running, reading, learning, writing and cooking.</p>
+                <p>If you're interested you can download my <a href="resources/CV Peter De Rijck 2023 English.pdf" target="_blank">Curriculum Vitae</a></p>
+            </div>
+            <div class="about-image">
+                <img src="./resources/images/profile.jpg" alt="My Profile Picture">
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <img src="./resources/images/html.png" alt="HTML">
+            <img src="./resources/images/css.png" alt="CSS">
+            <img src="./resources/images/javascript.png" alt="JavaScript">
+            <img src="./resources/images/vscode.png" alt="Visual Studio Code">
+            <img src="./resources/images/react.png" alt="React">
+            <img src="./resources/images/git.png" alt="Git">
+            <img src="./resources/images/github.png" alt="Github">
+            <img src="./resources/images/python.png" alt="Python">
+            <img src="./resources/images/plsql.png" alt="PL/SQL">
+            <img src="./resources/images/oracle.png" alt="Oracle">
+            <img src="./resources/images/c++.png" alt="C++">
+            <img src="./resources/images/net.png" alt="NET">
+            <img src="./resources/images/mysql.png" alt="MySQL">
+            <img src="./resources/images/mssql.png" alt="Microsoft SQL Server">
+            
+        </div>
+    </section>    
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>I am currently following the course of Full Stack Engineer on Codecademy, below are some examples of the small projects I've done in the previous weeks.</p>
+        <div class="project-container">
+            <div class="project-card">
+                <a href="../Film Finder/index.html" target="_blank"><img src="./resources/images/popcorn.png" alt="film finder project"></a>
+                <h3>Film finder - project to learn advanced javascripting and using an api</h3>
+            </div>
+            <div class="project-card">
+                <a href="../mixedmessages/mixedmessages.html"><img src="./resources/images/mixed.png" alt="Mixed messages"></a>
+                <h3>Mixed messages - javascript project</h3>
+            </div>
+            <div class="project-card">
+                <a href="../dasmoto/dasmoto.html"><img src="./resources/images/dasmoto.png" alt="das moto project"></a>
+                <h3>Das moto - styling project</h3>
+            </div>
+        </div>
+      </section>
+  
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="form-container">
+            <form action="https://formspree.io/f/xoqzvpkp" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Send">
+              </form>
+              
+        </div>
+      </section>
+      
+  </main>
+  <footer>
+    <p>Copyright ©2023 Portfolio Peter De Rijck</p>
+  </footer>
+</body>
+</html>
