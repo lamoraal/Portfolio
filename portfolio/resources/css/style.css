@@ -38,7 +38,7 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
 
 main {
     padding: 0em;
@@ -122,19 +122,20 @@ section {
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     flex-wrap: wrap;
     color: white;
   }
   
 .project-card {
-    width: 30%;
+    width: 20%;
     text-align: center;
   }
   
 .project-card img {
-    width: 100%;
+    width: 150px;
+    height: 150px;
   }
 
 .project-card img {
